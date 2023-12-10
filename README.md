@@ -19,3 +19,4 @@ This R script performs factor analysis on a dataset related to a Social and Emot
 ## Measurement Invariance
 1. Tests for scale's measurement invariance across gender.
 
+Results obtained from this analysis can be found in the following paper: **Sharma, M., Chheda, S., Piramal, R., Bhatia, N., Frazier, T., & Singh, N. C. (2022). The Social and Emotional Learning and Orientation Scale - Development and Validation of a Brief Measure in Hindi. Journal of Psychoeducational Assessment, 40(5), 571-591. https://doi.org/10.1177/07342829221075517**
