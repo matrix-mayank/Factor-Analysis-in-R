@@ -17,5 +17,5 @@ This R script performs factor analysis on a dataset related to a Social and Emot
 ## Confirmatory Factor Analysis
 1. Performs CFA on hypothesised factor structure.
 ## Measurement Invariance
-Tests for scale's measurement invariance across gender.
+1. Tests for scale's measurement invariance across gender.
 
