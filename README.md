@@ -1,2 +1,21 @@
 # Factor-Analysis-in-R
-Comprehensive documentation on conducting factor analysis in R
+This R script performs factor analysis on a dataset related to a Social and Emotional Learning (SEL) assessment using several R packages, such as psych, EFA.dimensions, dplyr, corrr, irr, lavaan, semPlot, MVN, and others. The analysis involves data preprocessing, correlation analysis, visualization, EFA, CFA, reliability testing and measurement invariance testing.
+
+## Data Loading
+1. Loads the SEL dataset from the file "EFAData_EFA.csv".
+## Exploratory Data Analysis
+1. Conducts univariate and multivariate normality tests using the MVN package (on all scale items).
+2. Creates a correlation matrix from the items and visualizes it as a correlogram.
+## Pre-Requisite Testing
+1. Tests sampling adequacy through Kaiser-Meyer-Olkin (KMO) value and factorisability through Bartlett's test.
+## Factor Extraction
+1. Extracts information on number of factors using the scree test, parallel analysis, MAP test.
+## Exploratory Factor Analysis
+3. Extracts factors using Principal Axis Factoring (PAF) with _oblimin_ rotation.
+## Reliability Analysis
+1. Tests reliability of extracted factors
+## Confirmatory Factor Analysis
+1. Performs CFA on hypothesised factor structure.
+## Measurement Invariance
+Tests for scale's measurement invariance across gender.
+
